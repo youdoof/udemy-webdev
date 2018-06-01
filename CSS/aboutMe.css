@@ -1,0 +1,31 @@
+ /*Hexadecimal */
+h1 {
+	color: #700099;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px dashed rgba(12, 140, 14, 0.8);
+}
+/*RGB BREH*/
+li {
+	color: rgb(150, 0, 255);
+	/*background: url(https://cdn.pixabay.com/photo/2017/01/15/10/20/texture-1981165_960_720.jpg);*/
+	/* Don't tile/repeat the image to take up space */
+	/*background-repeat: no-repeat; */
+	/* Take up the entire space */
+	/*background-size: cover; */
+}
+/*RGB EHH???*/
+h4 {
+	color: rgba(0, 150, 240, 0.75);
+	background: rgb(230, 100, 112);
+}
+
+body {
+	background: lightgray;
+}
+
+a {
+	background: blue;
+}

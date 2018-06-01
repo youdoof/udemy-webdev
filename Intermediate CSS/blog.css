@@ -1,0 +1,41 @@
+/*
+Border color: #BDC3C7
+Date Color: #3498DB
+h2 Color: #2C3E50
+Font: Source Sans Pro (used Muli)
+*/
+
+/*
+HR styles. Use that mug to get little horizontal line!
+*/
+
+body {
+	font-family: Muli;
+	font-weight: 400;
+	padding: 20px;
+	border: 20px solid #BDC3C7;
+	margin: 20px auto;
+	/*Max 700, otherwise, keep 80%*/
+	max-width: 700px;
+	width: 80%;
+}
+
+h1 {
+	color: #2C3E50;
+	font-weight: 700;
+}
+
+hr {
+	color: #BDC3C7;
+}
+
+.date {
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #3498DB;
+}
+
+.intro {
+	padding-left: 5px;
+	border-left: 5px solid #BDC3C7;
+}

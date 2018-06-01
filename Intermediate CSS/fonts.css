@@ -1,0 +1,50 @@
+/*Font-Family*/
+/*Sometimes "quotes" are required*/
+p {
+	font-family: "Muli";
+}
+
+h1 {
+	font-family: "Dancing Script";
+}
+
+/*Font-Size*/
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5.0em; /* 5 times as large as the body*/
+}
+
+p {
+	font-size: 2.0em; /* 2 times as large as the body*/
+}
+
+span {
+	font-size: 2.0em; /* 2 times as large as the parent!!*/
+}
+
+/*Font-Weight*/
+p {
+	font-weight: normal;
+}
+
+/*Line-Height*/
+p {
+	line-height: 1.15; /* Essentially, double spaced mcdingus. */
+}
+
+/*Text-Align*/
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*Text-Decoration*/
+span {
+	text-decoration: underline;
+}
