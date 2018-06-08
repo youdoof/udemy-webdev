@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Google Logo Exercise</title>
+	<style>
+		div {
+		  margin: 300px auto;
+		  width: 272px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="hplogo" />
+	</div>
+
+	<script type="text/javascript">
+		let base = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+
+		var logo = document.querySelector("#hplogo");
+
+		function setLogo(logo) {
+			logo.setAttribute("srcset", "https://www.eastcottvets.co.uk/uploads/Animals/gingerkitten.jpg");
+		}
+
+		function resetLogo() {
+			document.querySelector("#hplogo").setAttribute("srcset", base);
+		}
+		// Ugh, this was fun? I guess.
+
+	</script>
+</body>
+</html>
